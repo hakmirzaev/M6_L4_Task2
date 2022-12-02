@@ -13,6 +13,8 @@
 		0E59813B2939FFBD006D7BC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E59813A2939FFBD006D7BC0 /* Preview Assets.xcassets */; };
 		0E59813D2939FFBD006D7BC0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59813C2939FFBD006D7BC0 /* Persistence.swift */; };
 		0E5981402939FFBD006D7BC0 /* M6_L4_Task2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E59813E2939FFBD006D7BC0 /* M6_L4_Task2.xcdatamodeld */; };
+		0E5981492939FFFC006D7BC0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5981482939FFFC006D7BC0 /* Account.swift */; };
+		0E59814C293A0099006D7BC0 /* defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59814B293A0099006D7BC0 /* defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0E59813A2939FFBD006D7BC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E59813C2939FFBD006D7BC0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0E59813F2939FFBD006D7BC0 /* M6_L4_Task2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = M6_L4_Task2.xcdatamodel; sourceTree = "<group>"; };
+		0E5981482939FFFC006D7BC0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		0E59814B293A0099006D7BC0 /* defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,14 @@
 		0E5981322939FFBC006D7BC0 /* M6_L4_Task2 */ = {
 			isa = PBXGroup;
 			children = (
+				0E59814A293A0079006D7BC0 /* apputils */,
 				0E5981332939FFBC006D7BC0 /* M6_L4_Task2App.swift */,
 				0E5981352939FFBC006D7BC0 /* ContentView.swift */,
 				0E5981372939FFBD006D7BC0 /* Assets.xcassets */,
 				0E59813C2939FFBD006D7BC0 /* Persistence.swift */,
 				0E59813E2939FFBD006D7BC0 /* M6_L4_Task2.xcdatamodeld */,
 				0E5981392939FFBD006D7BC0 /* Preview Content */,
+				0E5981482939FFFC006D7BC0 /* Account.swift */,
 			);
 			path = M6_L4_Task2;
 			sourceTree = "<group>";
@@ -71,6 +77,14 @@
 				0E59813A2939FFBD006D7BC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E59814A293A0079006D7BC0 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				0E59814B293A0099006D7BC0 /* defaults.swift */,
+			);
+			path = apputils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5981492939FFFC006D7BC0 /* Account.swift in Sources */,
+				0E59814C293A0099006D7BC0 /* defaults.swift in Sources */,
 				0E59813D2939FFBD006D7BC0 /* Persistence.swift in Sources */,
 				0E5981362939FFBC006D7BC0 /* ContentView.swift in Sources */,
 				0E5981402939FFBD006D7BC0 /* M6_L4_Task2.xcdatamodeld in Sources */,
